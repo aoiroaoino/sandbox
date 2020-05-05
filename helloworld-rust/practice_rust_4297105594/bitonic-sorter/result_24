@@ -1,0 +1,8 @@
+aoiroaoino@NaokinoMacBook-Pro bitonic-sorter % cargo run --release --example benchmark -- 24
+    Finished release [optimized] target(s) in 0.02s
+     Running `target/release/examples/benchmark 24`
+sorting 16777216 integers (64.0 MB)
+cpu info 2 physical cores, 4 logical cores
+seq_sort: sorted 16777216 integers in 8.753787163 seconds
+par_sort: sorted 16777216 integers in 4.419705883 seconds
+speed up: 1.98x
